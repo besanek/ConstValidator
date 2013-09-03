@@ -1,0 +1,21 @@
+{
+    "name": "besanek/const-validator",
+    "type": "library",
+    "description": "Simple tester for validating value given by constant.",
+    "license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+    "keywords": ["constant", "const", "validator", "tester"],
+    "authors": [
+        {
+            "name": "Robert Jelen",
+            "homepage": "http://robert.kdpvv.cz"
+        }
+    ],
+    "require-dev": {
+        "nette/tester": "@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "ConstValidator": ""
+        }
+    }
+}
